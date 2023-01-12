@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #A3C7D6;
+    font-family: 'Roboto Slab', serif;
+    color: #3F3B6C;
+}
+
+header{
+    display: flex;
+    position: sticky;
+    top: 0%;
+    background-color: #624F82;
+    align-items: center;
+    
+}
+h3{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.div-imagem-header{
+    margin-left: 20%;
+}
+
+.img-header{
+    width: 35%;
+
+}
+
+.nav{
+    margin-left: 35%;
+}
+
+.ul-nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.a-nav{
+    text-decoration: none;
+    padding: 5px;
+    color: #A3C7D6;
+}
+
+.div-cards{
+    display: flex; 
+    margin: 2% 12%;
+}
+
+.card1{
+    padding: 0% 10%;
+}
+
+
+.img-card1{
+    width: 500px;
+}
+
+.img-card2{
+    width: 500px;
+    height: 280px;
+}
+.paragrafo-cards{
+    text-align: justify;
+    margin-left: 35%;
+    padding: 1% 2%;
+}
+
+.paragrafo-cards2{
+    text-align: justify;
+    margin-left: 42%;
+    padding: 1% 2%;
+}
+.botao-card{
+    margin: 0% 40%;
+}
+
+.b{
+    text-decoration: none;
+
+    color: #A3C7D6;
+    text-transform: uppercase;
+    margin-top: 1%;
+    background: #624F82;
+    border: 1px solid #624F82;
+    border-radius: 2px;
+    color: #A3C7D6;
+    display: inline-block;
+    padding: 11% 20%;
+    font-size: 0.9rem;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+.div-jogos{
+    margin: 0px 26%;
+    padding: 2% 0%;
+}
+.img-jogo1{
+    width: 350px;
+    padding-right: 9%;
+    padding-left: 2%;
+}
+.img-jogo2{
+    width: 350px;
+    padding-left: 9%;
+}
+.div-paragrafo-jogos{
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.div-esportes{
+    display: flex;
+}
+.div-img-esporte{
+    padding-right: 26%;
+    padding-top: 1%;
+}
+.img-esportes{
+    width: 350px;
+}
+.texto-esportes{
+    width: 30%;
+    margin-left: 50%;
+    text-align: left;
+    padding-top: 5%;
+}
+
+
+.div-nautico{
+    display: flex;
+}
+.div-img-nautico{
+    padding-right: 10%;
+    padding-left: 27%;
+    padding-top: 1%;
+}
+.img-nautico{
+    width: 350px;
+}
+.texto-nautico{
+    width: 30%;
+    margin-left: 70%;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 27%;
+}
+
+
+.div-profissao{
+    display: flex;
+    margin-left: 27%;
+}
+.img-profissao{
+    width: 370px;
+    height: 300px;
+    padding: 3% 0%;
+}
+.texto-profissao{
+    padding: 5% 10%;
+    width: 30%;
+}
+
+.div-sobre-mim{
+    display: flex;
+    margin-left: 27%;
+}
+.img-sobre-mim{
+    width: 370px;
+    height: 500px;
+    border-radius: 10%;
+    padding: 3% 0%;
+}
+.texto-sobre-mim{
+    padding: 5% 10%;
+    width: 30%;
+}
+
+footer{
+    text-align: center;
+    padding: 2%;
+}
